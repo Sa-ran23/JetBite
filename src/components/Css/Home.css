@@ -1,0 +1,406 @@
+
+/* side scroll bar */
+
+/* .category_section {
+  margin: 0 auto;
+  width: 1157px;
+  padding: 20px;
+} */
+
+/* .category_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+} */
+
+/* .category_title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+} */
+
+/* .category_arrows {
+  display: flex;
+  gap: 8px;
+} */
+
+/* .arrow_btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #f0f0f0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.arrow_btn:hover {
+  background: #e0e0e0;
+} */
+
+/* .scroll_container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 93px;
+  padding: 10px 0;
+  scrollbar-width: none;
+} */
+
+/* .scroll_container::-webkit-scrollbar {
+  display: none;
+} */
+
+/* .category_item {
+  flex: 0 0 auto;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+} */
+
+/* .category_item img {
+width: 140px;
+height: 130px;
+} */
+
+.category_item p {
+  margin: 8px 0 0;
+  font-size: 15px;
+  color: #333;
+}
+
+
+/* card box */
+
+
+/* .home_top{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .home_title{
+    margin: 32px 0px 0px 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+} */
+
+/* .top_box{
+    margin-left: 70%;
+    width: 28%;
+} */
+
+/* .search_box{
+    height: 30px;
+    width: 40%;
+    margin-right: 8px;
+    border-radius: 13px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #f78d2d;
+} */
+
+/* .search_btn{
+    width: 25%;
+    height: 34px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #f78d2d;
+    background-color: #f78d2d;
+} */
+/* .ani_box{
+    border: 1px solid black;
+    width: 17%;
+    border-radius: 22px;
+    height: 305px;
+} */
+.ani_cont{
+    max-width: 92%;
+    max-height: 186px;
+    padding: 9px;
+}
+/* .ani_img{
+    width: 100%;
+    border-radius: 14px;
+    height: 170px;
+} */
+/* .home_res{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: serif;
+    margin-top: 11%;
+    margin-left: 19%;
+} */
+/* .home_near{
+    margin-left: 39%;
+    width: 61%;
+} */
+/* .deve{
+    margin-left: 74%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+} */
+/* .res_log{
+    width: 21% !important;
+    height: 253px;
+    margin: 5px 141px 0px 0px;
+} */
+
+/* .res_img{
+    width: 100%;
+    height: 190px;
+    border-radius: 24px;
+} */
+/* .img_items{
+    max-width: 275px;
+    max-height: 191px;
+} */
+
+/* .home_res_container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 13px;
+    margin-top: 35px;
+    margin-right: 12px;
+} */
+
+/* .home_res_card{
+    background-color: #f78e2e1a;
+    border-radius: 23px;
+    width: 21%;
+    height: 292px;
+    padding: 8px;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 45px;
+    position: relative;
+} */
+/* .home_res_card:hover{
+    box-shadow: 0 0 15px #000;
+} */
+
+/* .home_res_info{
+    width: 100%;
+    margin: 4px 0px 0px 5px;
+} */
+
+/* .res_name{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.res_det{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* .home_res_rating{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 11px;
+    margin-top: 13px;
+    position: absolute;
+    bottom: 16px; 
+    left: 16px;   
+    right: 16px;  
+} */
+
+/* .rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #e8f5e9;
+    color: #1b5e20;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-weight: 600;
+} */
+
+/* .amount{
+    font-weight: bold;
+} */
+
+/* .food-icon {
+    position: relative;
+    top: 4px; /* adjust 2px, 3px, 4px as needed */
+/* } */
+
+
+
+
+/* shimmer effect */
+/* 
+@keyframes shimmer_wave {
+  0%   { background-position: -700px 0; }
+  100% { background-position:  700px 0; }
+}
+
+.sh {
+  background: linear-gradient(90deg, #f7f3ed 25%, #ede7dd 50%, #f7f3ed 75%);
+  background-size: 700px 100%;
+  animation: shimmer_wave 1.4s infinite linear;
+  border-radius: 8px;
+}
+
+.shimmer_wrap{
+    padding: 0 12px;
+}
+
+/* top hero */
+/* .shimmer_top{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-bottom: 24px; 
+    padding-top: 12px; 
+}
+.shimmer_top_left{
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    margin-left: 19%; 
+    margin-top: 11%; 
+}
+.shimmer_title{ 
+    width: 260px; 
+    height: 52px; 
+    border-radius: 10px; 
+}
+.shimmer_subtitle{ 
+    width: 180px; 
+    height: 28px; 
+}
+.shimmer_tagline{ 
+    width: 100px; 
+    height: 20px; 
+}
+.shimmer_logo{ 
+    width: 21%; 
+    height: 253px; 
+    border-radius: 12px; 
+    margin-right: 141px; 
+} */
+
+/* search */
+/* .shimmer_search_row{ 
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 8px; 
+    margin-bottom: 24px; 
+    margin-right: 1%; 
+}
+.shimmer_input{ 
+    width: 180px; 
+    height: 34px; 
+    border-radius: 20px; 
+}
+.shimmer_btn{ 
+    width: 80px;  
+    height: 34px; 
+    border-radius: 10px; 
+} */
+
+/* category */
+/* .shimmer_category_section{ 
+    width: 1157px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.shimmer_cat_header{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 12px; 
+}
+.shimmer_cat_title{ 
+    width: 180px; 
+    height: 22px; 
+}
+.shimmer_arrows{ 
+    display: flex; 
+    gap: 8px; 
+}
+.shimmer_arrow{ 
+    width: 36px; 
+    height: 36px; 
+    border-radius: 50%; 
+}
+.shimmer_scroll{ 
+    display: flex; 
+    gap: 93px; 
+    overflow: hidden; 
+    padding: 10px 0; 
+    margin-bottom: 24px; 
+}
+.shimmer_cat_item { 
+    flex: 0 0 auto; 
+    width: 140px; 
+    height: 130px; 
+    border-radius: 10px; 
+} */
+
+/* section heading */
+/* .shimmer_section_title{ 
+    width: 280px; 
+    height: 24px; 
+    margin: 16px 0 20px 11px;  */
+/* } */
+
+/* cards grid */
+/* .shimmer_cards{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 16px; 
+    margin: 0 12px; 
+}
+.shimmer_card { 
+    width: 21%; 
+    border-radius: 23px; 
+    overflow: hidden; 
+    margin-bottom: 45px; 
+}
+.shimmer_card_img{ 
+    width: 100%; 
+    height: 190px; 
+    border-radius: 0; 
+}
+.shimmer_card_body{ 
+    padding: 10px 12px 14px; 
+    background: #f78e2e1a; 
+}
+.shimmer_card_name{ 
+    width: 70%; 
+    height: 16px; 
+    margin-bottom: 8px; 
+}
+.shimmer_card_det{ 
+    width: 90%; 
+    height: 13px; 
+    margin-bottom: 20px; 
+}
+.shimmer_card_footer{ 
+    display: flex; 
+    justify-content: space-between; 
+}
+.shimmer_rating_pill{ 
+    width: 64px; 
+    height: 26px; 
+    border-radius: 999px; 
+}
+.shimmer_amount { 
+    width: 50px; 
+    height: 16px; 
+} */ 
+
+
+ /* @keyframes shimmer_wave {
+  0%   { background-position: -700px 0; }
+  100% { background-position:  700px 0; }
+}
+
+.sh {
+  background: linear-gradient(90deg, #f7f3ed 25%, #ede7dd 50%, #f7f3ed 75%);
+  background-size: 700px 100%;
+  animation: shimmer_wave 1.4s infinite linear;
+  border-radius: 8px;
+} */

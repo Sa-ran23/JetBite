@@ -1,0 +1,58 @@
+/* .footer{ */
+    /* background-color: #7d9d69; */
+    /* background-color: #b5d3b7;
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 22px;
+} */
+
+/* .footer_content{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 11%;
+    padding-top: 4%;
+} */
+
+/* .footer_logo{
+    width: 100px;
+    height: 100px;
+} */
+
+/* .footer_logo_text{
+    width: 200px;
+    height: 50px;
+    margin: 57px 0px 0px 97px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* .footer_logo_part .footer_logo{
+    position: absolute;
+    margin-top: 30px;
+} */
+
+/* .footer_title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+} */
+/* .footer_link{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 6px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+} */
+/* .footer_links{
+    display: grid;
+} */
+/* .social_links{
+    margin-top: 10px;
+} */
+/* .falink{
+    margin-right: 10px;
+    cursor: pointer;
+} */
