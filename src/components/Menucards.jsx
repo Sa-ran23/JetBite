@@ -5,6 +5,7 @@ import { MdStars } from "react-icons/md";
 import { useState } from "react";
 import { useDispatch, useSelector } from 'react-redux'
 import { addItem, removeItem } from "../constant/CartSlice";
+import { Link } from "react-router";
 
 function Menucards( { elements, altrs }){
 
@@ -26,14 +27,14 @@ function Menucards( { elements, altrs }){
     return(
         <div className="main_food_top !mt-3">
             {new Set(cartItems.map(item => item.card.info.id)).size != 0 ?
-           <div className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 items-center gap-3 rounded-2xl bg-slate-900 !px-5 !py-3 shadow-2xl">
+           <Link to="/Cart" className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 items-center gap-3 rounded-2xl bg-slate-900 !px-5 !py-3 shadow-2xl">
                 <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-orange-500 text-sm font-bold text-white">
                     {new Set(cartItems.map(item => item.card.info.id)).size}
                 </div>
                 <div className="text-sm font-bold tracking-wide text-white">
                     Items Added
                 </div>
-            </div>:""}
+            </Link>:""}
 
             <div className="food_head !mb-2 flex items-center justify-between rounded-2xl border border-slate-100 bg-white !px-5 !py-3.5 shadow-sm">
                 <span className="text-base font-bold text-slate-900 sm:text-lg">{elements.card.card.title}</span>
