@@ -148,7 +148,7 @@ function Home() {
             <p className="!mt-1 text-sm text-slate-400">Try a different name or clear the search box.</p>
           </div>
         ) : (
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 !mr-[13px]">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {search.map((item, index) => (
               <FoodCard item={item} key={index} alts={alts} />
             ))}
