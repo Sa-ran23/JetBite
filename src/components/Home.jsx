@@ -11,6 +11,7 @@ import FoodCard from "./FoodCard";
 import Shimmer from "./Shimmer";
 import { resData } from "../mockData";
 import { useSelector } from "react-redux";
+import { Link } from "react-router";
 
 function Home() {
   const scrollRef = useRef(null);
@@ -156,14 +157,14 @@ function Home() {
         )}
       </section>
       {new Set(cartItems.map(item => item.card.info.id)).size > 0 && (
-        <div className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 items-center gap-3 rounded-2xl bg-slate-900 !px-5 !py-3 shadow-2xl">
+        <Link to="/Cart" className="fixed bottom-6 left-1/2 z-50 flex -translate-x-1/2 items-center gap-3 rounded-2xl bg-slate-900 !px-5 !py-3 shadow-2xl">
           <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-orange-500 text-sm font-bold text-white">
             {new Set(cartItems.map(item => item.card.info.id)).size}
           </div>
           <div className="text-sm font-bold tracking-wide text-white">
             Items Added
           </div>
-        </div>
+        </Link>
       )}
     </div>
   );
