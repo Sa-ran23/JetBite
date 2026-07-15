@@ -54,7 +54,7 @@ function Home() {
   };
 
   return (
-    <div className="bg-[#FFFBF6] w-[105%] sm:w-[100%]">
+    <div className="bg-[#FFFBF6]">
       <section className="relative overflow-hidden !mt-[5px] rounded-[28px]">
         <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-orange-200/30 blur-3xl" />
         <div className="pointer-events-none absolute top-40 -left-20 h-64 w-64 rounded-full bg-amber-100/50 blur-3xl" />
